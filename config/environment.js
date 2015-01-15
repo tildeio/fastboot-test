@@ -5,9 +5,11 @@ module.exports = function(environment) {
     modulePrefix: 'fastboot-test',
     environment: environment,
     baseURL: '/',
-    locationType: 'auto',
+    locationType: 'none',
+
     EmberENV: {
       FEATURES: {
+        'ember-htmlbars': true
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
       }

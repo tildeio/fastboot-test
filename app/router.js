@@ -6,7 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route("one-small-step");
+  this.resource('posts', function() {
+    this.resource('post', { path: ':post_id' });
+  });
 });
 
 export default Router;

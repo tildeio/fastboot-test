@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'fastboot-test',
     environment: environment,
     baseURL: '/',
-    locationType: 'none',
+    locationType: 'auto',
 
     EmberENV: {
       FEATURES: {

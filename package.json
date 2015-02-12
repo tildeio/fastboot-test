@@ -21,7 +21,8 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
     "connect-restreamer": "^1.0.1",
-    "ember-cli": "^0.1.12",
+    "ember-bootstrap": "0.0.5",
+    "ember-cli": "^0.1.13",
     "ember-cli-6to5": "0.2.1",
     "ember-cli-content-security-policy": "0.3.0",
     "ember-cli-dependency-checker": "0.0.7",
